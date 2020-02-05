@@ -1,0 +1,4 @@
+FROM alpine
+RUN echo "Hello world from github file" && echo "Testing api.........."
+ENV name=wazeem
+RUN echo "Hello my name is $name"
